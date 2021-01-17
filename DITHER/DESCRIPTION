@@ -1,0 +1,11 @@
+Package: DITHER
+Type: Package
+Title: An algorithm for Defining IntraTumor Heterogeneity based on EntRopy
+Version: 1.0
+Date: 2021-1-11
+Author: Lin Li, Xiaosheng Wang
+Maintainer: Lin Li <cpu_lilin@126.com>, Xiaosheng Wang <xiaosheng.wang@cpu.edu.cn>
+Description: The package is used to calculate IntraTumor Heterogeneity (ITH) based on somatic mutation and copy number alteration (CNA) profiles in tumors.
+LazyData: true
+License: GPL-3
+RoxygenNote: 6.1.1
