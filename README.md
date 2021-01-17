@@ -1,15 +1,15 @@
 # DITHER
 An algorithm for Defining IntraTumor Heterogeneity based on EntRopy
-### Description
+## Description
 The package is used to calculate IntraTumor Heterogeneity (ITH) based on somatic mutation and copy number alteration (CNA) profiles in tumors.
-### Installation
+## Installation
 You can install the released version of **DITHER** with:
 ```r
 if (!requireNamespace("devtools", quietly = TRUE))
     install.packages("devtools")
 devtools::install_github("XS-Wang-Lab/DITHER/DITHER")
 ```
-### Examples
+## Examples
 ```r
 ## Calculate ITH based on the entropy of somatic mutation profiles in tumors ----------
 library(DITHER)
