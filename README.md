@@ -4,10 +4,9 @@ An algorithm for Defining IntraTumor Heterogeneity based on EntRopy.
 The package is used to calculate IntraTumor Heterogeneity (ITH) based on somatic mutation and copy number alteration (CNA) profiles in tumors.
 ## Details
 - The input of the function ```mDITHER()``` should be a tab-delimited plain text file, which should include at least two columns ("Sample" and "VAF"). The "Sample" column is the tumor sample ID; the "VAF" column is the somatically mutant allele fractions (MAFs) among loci in the tumor.
-- The input of the function ```cDITHER()``` should be a tab-delimited plain text file, which should include at least two columns ("Sample" and "Segment_Mean"). The "Segment_Mean" column is the mean segments in the tumor, which equal to log2(copy number/2).
+- The input of the function ```cDITHER()``` should be a tab-delimited plain text file, which should include at least two columns ("Sample" and "Segment_Mean"). The "Sample" column is the tumor sample ID; the "Segment_Mean" column is the mean segments in the tumor, which equal to log2(copy number/2).
 - The input of the function ```DITHER()``` should include the two files mentioned above.
 ## Installation
-
 You can install the released version of **DITHER** with:
 ```r
 if (!requireNamespace("devtools", quietly = TRUE))
