@@ -40,3 +40,5 @@ input_data_cna = read.table(path2, stringsAsFactors = FALSE, sep = "\t", header 
 DITHER(input_data_mut, input_data_cna)
 ```
 
+## Citation
+Li L, Chen C, Wang X. DITHER: an algorithm for Defining IntraTumor Heterogeneity based on EntRopy. Brief Bioinform. 2021 Nov 5;22(6):bbab202. doi: 10.1093/bib/bbab202. PMID: 34096997.
